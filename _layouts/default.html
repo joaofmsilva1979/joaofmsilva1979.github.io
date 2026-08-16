@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  {% seo %}
+</head>
+<body>
+
+  <nav class="nav">
+    <a href="{{ '/' | relative_url }}" class="nav-logo">JS</a>
+    <div class="nav-links">
+      <a href="{{ '/marcom/' | relative_url }}" {% if page.url contains '/marcom' %}class="active"{% endif %}>MarCom</a>
+      <a href="{{ '/tech-ia/' | relative_url }}" {% if page.url contains '/tech-ia' %}class="active"{% endif %}>Tech & IA</a>
+      <a href="{{ '/a-propos/' | relative_url }}" {% if page.url contains 'a-propos' %}class="active"{% endif %}>À propos</a>
+    </div>
+  </nav>
+
+  {{ content }}
+
+  <footer class="footer">
+    <p>© {{ site.time | date: "%Y" }} Joao Silva &mdash;
+      <a href="https://joaosilva1979.substack.com" target="_blank" rel="noopener">Substack</a> &middot;
+      <a href="https://github.com/joaofmsilva1979" target="_blank" rel="noopener">GitHub</a>
+    </p>
+  </footer>
+
+</body>
+</html>

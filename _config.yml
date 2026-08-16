@@ -1,0 +1,19 @@
+title: Joao Silva
+description: Builder. MarCom. Tech & IA. Idées mises en construction publique.
+url: "https://joaofmsilva1979.github.io"
+baseurl: ""
+lang: fr
+author: Joao Silva
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore

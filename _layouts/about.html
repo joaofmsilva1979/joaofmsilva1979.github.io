@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<section class="page-hero">
+  <div class="page-hero-inner">
+    <p class="hero-tag">À propos</p>
+    <h1>{{ page.title }}</h1>
+  </div>
+</section>
+
+<div class="about-layout">
+  <div class="about-photo-wrap">
+    <img src="{{ '/assets/img/joao.png' | relative_url }}" alt="Joao Silva" class="about-photo">
+  </div>
+  <div class="page-content">
+    {{ content }}
+  </div>
+</div>

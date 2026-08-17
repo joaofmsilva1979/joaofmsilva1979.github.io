@@ -4,7 +4,9 @@ title: Joao Silva
 permalink: /a-propos/
 ---
 
-Responsable marketing & digital au **CIGL Esch** (Luxembourg). Je coordonne la stratégie de communication d'une institution sociale publique — rebranding, positionnement, présence numérique, relations avec les publics. Un environnement où les enjeux sont complexes, les audiences multiples, et les budgets contraints. Un bon terrain pour penser le marketing autrement que comme une mécanique.
+**Coordinateur Nouvelles Technologies de l'Information et de la Communication** au CIGL Esch (Luxembourg). Une institution sociale publique, une dizaine de services, des publics multiples et des enjeux de communication qui ne ressemblent à rien de ce qu'on enseigne dans les manuels.
+
+Parmi mes attributions : la stratégie marketing & communication — rebranding, positionnement, présence numérique, relations avec les publics. C'est une part du rôle, pas le titre. Et c'est souvent la partie la plus visible, donc la plus commentée.
 
 Avant ça, plusieurs années dans des environnements où il fallait à la fois décider et exécuter. Ce qui m'a appris que la qualité d'une stratégie se juge à son exécution — pas à sa présentation.
 

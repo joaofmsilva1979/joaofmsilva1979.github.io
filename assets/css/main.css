@@ -88,7 +88,7 @@ img { max-width: 100%; display: block; }
   background: var(--dark);
   color: #fff;
   padding: calc(var(--nav-h) + 100px) 2.5rem 120px;
-  min-height: 72vh;
+  min-height: 55vh;
   display: flex;
   align-items: center;
 }
